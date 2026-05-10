@@ -5,12 +5,6 @@ import { gallery } from "@/lib/mockData";
 import { X } from "lucide-react";
 
 export const Route = createFileRoute("/gallery")({
-  head: () => ({
-    meta: [
-      { title: "Gallery — EROS CUTS" },
-      { name: "description", content: "A look inside EROS CUTS — recent cuts, beard work, and the studio atmosphere." },
-    ],
-  }),
   component: GalleryPage,
 });
 

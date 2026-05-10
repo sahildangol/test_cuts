@@ -5,12 +5,6 @@ import { Button } from "@/components/ui/button";
 import interior from "@/assets/interior.jpg";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "Our Story — EROS CUTS" },
-      { name: "description", content: "Founded in 2017, EROS CUTS blends heritage barber craft with modern luxury. Meet the team behind Kathmandu's premier grooming studio." },
-    ],
-  }),
   component: AboutPage,
 });
 
