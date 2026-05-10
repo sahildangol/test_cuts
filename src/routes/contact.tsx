@@ -6,12 +6,6 @@ import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Contact & Visit — EROS CUTS" },
-      { name: "description", content: "Visit EROS CUTS at Durbar Marg, Kathmandu. Call, message, or send us a note." },
-    ],
-  }),
   component: ContactPage,
 });
 

@@ -5,12 +5,6 @@ import { services } from "@/lib/mockData";
 import { ArrowRight, Check, Clock } from "lucide-react";
 
 export const Route = createFileRoute("/services")({
-  head: () => ({
-    meta: [
-      { title: "Services & Pricing — EROS CUTS" },
-      { name: "description", content: "Signature cuts, skin fades, beard sculpting, and the Royal package. Transparent pricing, master barbers, in Kathmandu." },
-    ],
-  }),
   component: ServicesPage,
 });
 

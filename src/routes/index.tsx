@@ -8,12 +8,6 @@ import { services, gallery, testimonials, stats, todaysSlots } from "@/lib/mockD
 import { Star, Clock, MapPin, ArrowRight, Scissors, ShieldCheck, Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "EROS CUTS — Premium Barbershop in Kathmandu" },
-      { name: "description", content: "Cinematic grooming studio in Kathmandu. Master barbers, signature cuts, beard sculpting, and the Royal package. Book your chair today." },
-    ],
-  }),
   component: HomePage,
 });
 

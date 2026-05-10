@@ -7,12 +7,6 @@ import { Check, ChevronLeft, ChevronRight, Calendar, Clock, User, CreditCard, Lo
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/booking")({
-  head: () => ({
-    meta: [
-      { title: "Book Your Session — EROS CUTS" },
-      { name: "description", content: "Reserve your chair at EROS CUTS in under 30 seconds. Choose your service, time, and payment method." },
-    ],
-  }),
   component: BookingPage,
 });
 

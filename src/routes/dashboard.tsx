@@ -5,12 +5,6 @@ import { dashboardKpis, upcomingBookings, revenueByService, weeklyRevenue, testi
 import { ArrowUpRight, Calendar, Star, TrendingUp, Users, Bell, Search } from "lucide-react";
 
 export const Route = createFileRoute("/dashboard")({
-  head: () => ({
-    meta: [
-      { title: "Owner Dashboard — EROS CUTS" },
-      { name: "description", content: "A live look at the operations dashboard powering EROS CUTS." },
-    ],
-  }),
   component: Dashboard,
 });
 
